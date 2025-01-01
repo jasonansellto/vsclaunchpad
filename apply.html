@@ -1,0 +1,315 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Title  -->
+	<title>VSC Token Launchpad</title>
+
+	<!-- Favicon  -->
+	<link rel="icon" href="assets/img/favicon.png">
+
+	<!-- ***** All CSS Files ***** -->
+
+	<!-- Style css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<!--====== Preloader Area Start ======-->
+	<div id="gameon-preloader" class="gameon-preloader">
+		<!-- Preloader Animation -->
+		<div class="preloader-animation">
+			<!-- Spinner -->
+			<div class="spinner"></div>
+			<p class="fw-5 text-center text-uppercase">Vector</p>
+		</div>
+		<!-- Loader Animation -->
+		<div class="loader-animation">
+			<div class="row h-100">
+				<!-- Single Loader -->
+				<div class="col-3 single-loader p-0">
+					<div class="loader-bg"></div>
+				</div>
+				<!-- Single Loader -->
+				<div class="col-3 single-loader p-0">
+					<div class="loader-bg"></div>
+				</div>
+				<!-- Single Loader -->
+				<div class="col-3 single-loader p-0">
+					<div class="loader-bg"></div>
+				</div>
+				<!-- Single Loader -->
+				<div class="col-3 single-loader p-0">
+					<div class="loader-bg"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--====== Preloader Area End ======-->
+
+	<div class="main">
+		<!-- ***** Header Start ***** -->
+		<header id="header">
+			<!-- Navbar -->
+			<nav data-aos="zoom-out" data-aos-delay="800" class="navbar gameon-navbar navbar-expand">
+				<div class="container header">
+
+					<!-- Logo -->
+					<a class="navbar-brand" href="index.html">
+						<img src="assets/img/logo/logo.png" alt="Brand Logo" />
+					</a>
+
+					<div class="ms-auto"></div>
+
+					<!-- Navbar Nav -->
+					<ul class="navbar-nav items mx-auto">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="projects.html" class="nav-link">Featured Projects</a>
+						</li>
+						<li class="nav-item">
+							<a href="https://vsc-launchpad.vercel.app/" class="nav-link">Create Token</a>
+						</li>
+						<li class="nav-item">
+							<a href="https://vsc-launchpad.vercel.app/" class="nav-link">Create NFT</a>
+						</li>
+						<li class="nav-item">
+							<a href="https://vsc-launchpad.vercel.app/" class="nav-link">Create DAO</a>
+						</li>
+					</ul>
+
+
+					<!-- Navbar Toggler -->
+					<ul class="navbar-nav toggle">
+						<li class="nav-item">
+							<a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#menu">
+								<i class="icon-menu m-0"></i>
+							</a>
+						</li>
+					</ul>
+
+					<!-- Navbar Action Button -->
+					<ul class="navbar-nav action">
+						<li class="nav-item ms-2">
+							<a href="https://vsc-launchpad.vercel.app/" class="btn ms-lg-auto btn-bordered-white"><i class="icon-rocket me-md-2"></i>Launch App</a>
+						</li>
+					</ul>
+
+				</div>
+			</nav>
+		</header>
+		<!-- ***** Header End ***** -->
+
+		<!-- ***** Breadcrumb Area Start ***** -->
+		<section class="breadcrumb-area overlay-dark d-flex align-items-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<!-- Breamcrumb Content -->
+						<div class="breadcrumb-content text-center">
+							<h2>Apply for Listing</h2>
+							<ol class="breadcrumb d-flex justify-content-center">
+								<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+								<li class="breadcrumb-item"><a href="#">Listing Application</a></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Breadcrumb Area End ***** -->
+
+		<!-- ***** Explore Area Start ***** -->
+		<section class="apply-area">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-8">
+						<div class="apply-form card no-hover">
+							<form action="#">
+								<div class="form-group">
+									<label for="name">Project name</label>
+									<input type="text" id="name" placeholder="My Project">
+									<small class="form-text mt-2">Enter the name of your project</small>
+								</div>
+								<div class="form-group">
+									<label for="short-description">Project description</label>
+									<input type="text" id="short-description">
+									<small class="form-text mt-2">Tell us about your project in a few sentences: goal, idea, concept</small>
+								</div>
+								<div class="form-group">
+									<label for="status">Project status</label>
+									<input type="text" id="status">
+									<small class="form-text mt-2">Describe the stage your project is at</small>
+								</div>
+								<div class="form-group">
+									<label for="amount">Amount of liquidity you are looking to add</label>
+									<input type="text" id="amount">
+									<small class="form-text mt-2">Enter the amount of initial liquidty (e.g. "$100k of VSG")</small>
+								</div>
+								<div class="form-group">
+									<label for="description">Describe your project</label>
+									<textarea id="description" placeholder="Short Description" cols="30" rows="3"></textarea>
+									<small class="form-text mt-2">Briefly describe your project</small>
+								</div>
+								<div class="form-group">
+									<label for="demo">Project whitepaper</label>
+									<input type="text" id="demo">
+									<small class="form-text mt-2">Add a link to your whitepaper</small>
+								</div>
+								<div class="form-group">
+									<label for="web-url">Website URL</label>
+									<input type="text" id="web-url">
+									<small class="form-text mt-2">Your website address</small>
+								</div>
+								<div class="form-group">
+									<label for="link">Pitch-deck link</label>
+									<input type="text" id="link">
+									<small class="form-text mt-2">Google drive / Dropbox link</small>
+								</div>
+								<div class="form-group">
+									<label for="project-email">Contact email</label>
+									<input type="email" id="project-email">
+									<small class="form-text mt-2">We will contact you by your email</small>
+								</div>
+								<div class="form-group">
+									<label for="telegram">Telegram handle</label>
+									<input type="text" id="telegram">
+									<small class="form-text mt-2">We may contact you on Telegram</small>
+								</div>
+								<span class="d-inline-block">We will review your submissions within 48 hours. If your game potentially fits our platform, we will contact you through your provided email address or on Telegram to arrange a call.</span>
+								<button type="submit" class="btn btn-bordered active mt-4">Submit My Project <i class="icon-login ms-2"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ***** Explore Area End ***** -->
+
+		<!--====== Footer Area Start ======-->
+		<footer class="footer-area">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-8 text-center">
+						<!-- Footer Items -->
+						<div class="footer-items">
+							<!-- Logo -->
+							<a class="navbar-brand" href="index.html">
+								<img src="assets/img/logo/logo.png" alt="">
+							</a>
+							<!-- Social Icons -->
+							<div class="social-icons d-flex justify-content-center my-4">
+								<a class="twitter" href="https://twitter.com/vectorcoin" target="_blank">
+									<i class="icon-social-twitter"></i>
+									<i class="icon-social-twitter"></i>
+								</a>
+								<a class="linkedin" href="https://www.linkedin.com/" target="_blank">
+									<i class="icon-social-linkedin"></i>
+									<i class="icon-social-linkedin"></i>
+								</a>
+							</div>
+							<ul class="list-inline">
+								<li class="list-inline-item"><a href="https://vsc-launchpad.vercel.app/">Launchpad</a></li>
+								<li class="list-inline-item"><a href="https://vsc-launchpad.vercel.app/">Create Token</a></li>
+								<li class="list-inline-item"><a href="https://vsc-launchpad.vercel.app/">Create NFT</a></li>
+								<li class="list-inline-item"><a href="https://vsc-launchpad.vercel.app/">Create DAO</a></li>
+								<li class="list-inline-item"><a href="https://vsc-launchpad.vercel.app/">Launch App</a></li>
+							</ul>
+							<!-- Copyright Area -->
+							<div class="copyright-area py-4">&copy;2024, All Rights Reserved By <a href="#" target="_blank">Vector Smart Chain</a></div>
+						</div>
+						<!-- Scroll To Top -->
+						<div id="scroll-to-top" class="scroll-to-top">
+							<a href="#header" class="smooth-anchor">
+								<i class="fa-solid fa-arrow-up"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--====== Footer Area End ======-->
+
+		<!--====== Modal Search Area Start ======-->
+		<div id="search" class="modal fade p-0">
+			<div class="modal-dialog dialog-animated">
+				<div class="modal-content h-100">
+					<div class="modal-header" data-bs-dismiss="modal">
+						Search <i class="far fa-times-circle icon-close"></i>
+					</div>
+					<div class="modal-body">
+						<form class="row">
+							<div class="col-12 align-self-center">
+								<div class="row">
+									<div class="col-12 pb-3">
+										<h2 class="search-title mt-0 mb-3">What are you looking for?</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 input-group mt-md-4">
+										<input type="text" placeholder="Enter your keywords">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 input-group align-self-center">
+										<button class="btn btn-bordered-white mt-3">Search</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--====== Modal Search Area End ======-->
+
+		<!--====== Modal Responsive Menu Area Start ======-->
+		<div id="menu" class="modal fade p-0">
+			<div class="modal-dialog dialog-animated">
+				<div class="modal-content h-100">
+					<div class="modal-header" data-bs-dismiss="modal">
+						Menu <i class="far fa-times-circle icon-close"></i>
+					</div>
+					<div class="menu modal-body">
+						<div class="row w-100">
+							<div class="items p-0 col-12 text-center"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--====== Modal Responsive Menu Area End ======-->
+
+	</div>
+
+	<!-- ***** All jQuery Plugins ***** -->
+
+	<!-- jQuery(necessary for all JavaScript plugins) -->
+	<script src="assets/js/vendor/jquery.min.js"></script>
+
+	<!-- Bootstrap js -->
+	<script src="assets/js/vendor/popper.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
+
+	<!-- Plugins js -->
+	<script src="assets/js/vendor/all.min.js"></script>
+	<script src="assets/js/vendor/gallery.min.js"></script>
+	<script src="assets/js/vendor/slider.min.js"></script>
+	<script src="assets/js/vendor/countdown.min.js"></script>
+	<script src="assets/js/vendor/shuffle.min.js"></script>
+
+	<!-- Main js -->
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
